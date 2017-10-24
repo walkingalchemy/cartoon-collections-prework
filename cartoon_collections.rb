@@ -8,7 +8,7 @@ end
 def summon_captain_planet(elements)
   elements.map do |element|
     element = element.split("").push("!")
-    elmement[0] = element[0].upcase
+    element[0] = element[0].upcase
     element.join
   end
   # Your code here
